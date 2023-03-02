@@ -40,3 +40,9 @@ function roar() {
   console.log(this.sound);
 }
 roar();
+
+let obj = { a: 1, b: 2, c: 3 };
+console.log(Object.getOwnPropertyNames(obj));
+console.log(Object.keys(obj));
+console.log(Object.values(obj));
+console.log(obj.hasOwnProperty('a'));
